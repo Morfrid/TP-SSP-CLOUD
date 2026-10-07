@@ -1,0 +1,5 @@
+bandit
+duckdb
+polars
+pytest
+ruff
