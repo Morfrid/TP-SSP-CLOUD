@@ -19,3 +19,6 @@ def test_accelere_limite_increment():
 
     # THEN
     assert v.vitesse == 10
+
+
+    
