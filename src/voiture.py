@@ -10,11 +10,12 @@ class Voiture:
     vitesse : int
         la vitesse de la voiture (initialisée à 0).
     """
-    def __init__(self, nom: str, couleur: str):
-        """Constructeur"""
-        self.nom = nom
-        self.couleur = couleur
-        self.vitesse = 42
+    def __init__(self, nom: str, couleur: str, vitesse_max: int=130):
+      """Constructeur"""
+      self.nom = nom
+      self.couleur = couleur
+      self.vitesse = 0
+      self.vitesse_max = vitesse_max
 
     def __str__(self):
         return f"La voiture {self.nom} de couleur {self.couleur} roule à {self.vitesse} km/h."
