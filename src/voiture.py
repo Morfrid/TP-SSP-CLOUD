@@ -34,4 +34,4 @@ class Voiture:
         """
         if increment > 10:
             increment = 10
-        self.vitesse = min(150, self.vitesse + increment)
+        self.vitesse = min(160, self.vitesse + increment)
